@@ -42,6 +42,9 @@ const Post = props => {
 	const classes = useStyles();
 
 	useEffect(() => {
+		photoContentRef.current.innerHTML = "";
+		setContentText("");
+
 		// eslint-disable-next-line quotes
 		let header;
 		let content;
@@ -57,6 +60,8 @@ const Post = props => {
 			}
 
 			let textContent = content.firstChild;
+			let postText = Array.from(content.querySelectorAll("div[dir='auto']")).map(e=>e.innerText).join("\n");
+
 			if (
 				textContent.innerText === "" &&
 				textContent.querySelector("img")
@@ -64,13 +69,13 @@ const Post = props => {
 				photoContent = textContent; // when there is no text in post
 			} else {
 				photoContent = textContent.nextSibling;
+				if (photoContent.textContent.includes("See Translation")) {
+					// skip once more if there is a translation
+					photoContent = photoContent.nextSibling;
+				}
 			}
-			let actionButtons = content.nextSibling;
 
-			// postViewRef.current.innerHTML = posts[idx].innerHTML;
-			// headerRef.current.innerHTML = header.innerHTML;
-			// textContentRef.current.innerHTML = textContent.innerHTML;
-			setContentText(textContent.innerText);
+			setContentText(postText);
 			if (photoContent !== null) {
 				photoContentRef.current.innerHTML = photoContent.innerHTML;
 				if (photoContent.querySelector("video")) {

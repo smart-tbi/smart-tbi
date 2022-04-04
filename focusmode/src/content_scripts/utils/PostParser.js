@@ -182,25 +182,7 @@ const findVideo = node => {
 }
 
 const findPostText = node => {
-    let text = "";
-    let done = false;
-
-    // Rule 1
-    try {
-	    text = node.querySelector('a[role="link"]').parentNode.parentNode.parentNode.parentNode.nextSibling.firstChild.innerText
-        done = true;
-    } catch (error) {
-        // console.log("Error parsing post text using rule2");
-    }
-
-    // Rule 2
-    if (!done) {
-        try {
-            text = node.querySelector('a[role="link"]').parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.innerText;
-        } catch (error) {
-            // console.log("Error parsing post text using rule2");
-        }    
-    }
+    let text = Array.from(node.querySelectorAll("div[dir='auto']")).map(e=>e.innerText).join("\n")
 
 	result.text = text;
 }
