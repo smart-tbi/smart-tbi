@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/13430641/161488862-7b4e00c2-663f-4a5e-
 
 ## Setup for Development
 
-1. Clone GitHub repository: `git clone https://github.com/smart-tbi/smart-tbi/focusmode`
+1. Clone GitHub repository: `git clone https://github.com/smart-tbi/smart-tbi`
 
 2. Navigate to Directory: `cd focusmode`
 
