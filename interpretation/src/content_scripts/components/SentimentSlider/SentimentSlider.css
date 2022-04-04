@@ -1,0 +1,35 @@
+.sentiment-slider {
+	margin-top: 20px;
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider {
+	height: 15px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, red , yellow, #66ff00);
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+.labels {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pointer {
+	transform: rotate(90deg);
+	color: rgb(244, 248, 252);
+	margin-top: 2px;
+}
+

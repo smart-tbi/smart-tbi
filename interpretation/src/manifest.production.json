@@ -1,0 +1,32 @@
+{
+  "name": "SMART-TBI Post Interpretation Aids",
+  "description": "SMART-TBI Post Interpretation Aids",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "img/icon128.png",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://*/*", "http://*/*"
+  ],
+  "permissions": ["storage", "unlimitedStorage", "tabs", "scripting", "http://*/*", "https://*/*", "activeTab"],
+  "icons": {
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "64": "img/icon64.png",
+    "128": "img/icon128.png",
+    "512": "img/icon512.png"
+  }
+}
