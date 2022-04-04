@@ -1,0 +1,13 @@
+#bottom-floating-bar {
+	z-index: 1400;  /* Places the floating bar in front of the dialog */
+	bottom: 0;
+	position: fixed;
+}
+
+.toolbar {
+	min-height: 40px !important;
+}
+
+.toolbar-caption {
+	min-height: 30px !important;
+}

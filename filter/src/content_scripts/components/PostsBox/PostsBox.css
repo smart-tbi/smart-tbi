@@ -1,0 +1,53 @@
+.hover-box {
+	margin-left: 5px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dialog-title {
+	display: inline;
+	color: #ffffff;
+	font-size: 1.8em;
+	font-weight: 600;
+	padding: 0;
+	margin: 0px 25px 0px 15px;
+}
+
+.centered-floating-button {
+	z-index: 1301; /* prevents the button from being hidden by backdrop */
+	background: none;
+	margin: 1rem;
+}
+
+.centered-dialog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.filtered {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.loading-spinner {
+    padding: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    z-index:99999;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: fixed;
+    top: 25vh;
+    left: 48vw;
+}
+
+.post-loading-inhibitor {
+	height: 1000px;
+}
