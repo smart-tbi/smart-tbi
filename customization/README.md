@@ -1,5 +1,7 @@
 # SMART-TBI Facebook Customization
 
+https://user-images.githubusercontent.com/101165823/161505287-a2b18ff3-1ac9-4967-92fa-56a2abada219.mp4
+
 The Facebook customization feature allows you to declutter your Facebook home page. You may keep the features and tabs you wish to continue seeing, while eliminating the ones you do not use, want, or need. If Facebook’s website is confusing or difficult for you to navigate, this aid makes Facebook easier to view and use for your specific needs, while decreasing the site’s amount of sensory and information overload.
 
 ## Setup for Development
