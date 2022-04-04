@@ -1,0 +1,55 @@
+.popup {
+  text-align: center;
+  width: 220px;
+  height: 220px;
+}
+
+.heading {
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0 0.8em 0.1em 0.8em;
+}
+
+.subtitle {
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.26em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding: 0 0.8em 0 0.8em;
+}
+
+.caption {
+  color: #ffffffaf;
+  align-items: center;
+  justify-content: center;
+	font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0em;
+  margin-top: 2em;
+  padding: 0 0.8em 0.1em 0.8em;
+}
+
+.captionSummary {
+	color: #ffffffd8;
+	font-size: 1.23em;
+	font-weight: 300;
+	letter-spacing: 0em;
+	margin: 0;
+	padding: 0;
+	/* margin-top: 15px; */
+}
+
+.toggle {
+  padding: 0 0.8em 0 0.8em;
+}

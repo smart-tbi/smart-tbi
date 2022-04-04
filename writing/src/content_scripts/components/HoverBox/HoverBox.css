@@ -1,0 +1,61 @@
+.writing-hover-box {
+  margin-top: -80px;
+  margin-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-content {
+  width: 220px;
+  /* border-radius: 10px; */
+	padding: 5px 15px 15px 15px;
+  background-color: #003b49;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 1.26em;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+}
+
+.heading {
+  display: inline;
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.caption {
+  color: #ffffffbb;
+	font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0em;
+  margin: 0;
+  padding: 0;
+  /* margin-top: 15px; */
+}
+
+.captionSummary {
+	color: #ffffffd8;
+	font-size: 1.23em;
+	font-weight: 300;
+	letter-spacing: 0em;
+	margin: 0;
+	padding: 0;
+	/* margin-top: 15px; */
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: white !important;
+}
