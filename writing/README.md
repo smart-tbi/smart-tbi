@@ -1,5 +1,7 @@
 # SMART-TBI Post Writing Aids
 
+https://user-images.githubusercontent.com/101165823/161505450-73a49a82-032c-454b-956d-bca48c65cd3e.mp4
+
 The post writing aid is designed to assist you in creating and writing clearer Facebook posts. If you struggle with spelling/grammar or deciding if your post is “appropriate”, this aid provides corrections and insight into the impression viewers may gather from your post.
 
 ## Prerequisites
