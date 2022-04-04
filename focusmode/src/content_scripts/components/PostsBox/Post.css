@@ -1,0 +1,10 @@
+#tbi-post-text {
+    color: #000000;
+    margin: 0 1rem;
+    font-size: 1.75vw;
+    word-break: break-word;
+}
+
+#postContent {
+    padding-bottom: 1rem;
+}
