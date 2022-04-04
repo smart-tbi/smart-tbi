@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/13430641/161488862-7b4e00c2-663f-4a5e-889c-a3fe7716cb74.mp4
 
-[SMART-TBI Focus Mode Extension](https://smart-tbi.github.io/studio/available-tools/focus-mode.html) is a feature designed to eliminate the distraction of a cluttered newsfeed while you are viewing your friends’ and groups’ Facebook posts. If you sometimes have information overload while viewing your Newsfeed, this aid allows you view each post individually without surrounding distractions.
+The [SMART-TBI Focus Mode Extension](https://smart-tbi.github.io/studio/available-tools/focus-mode.html) is a feature designed to eliminate the distraction of a cluttered newsfeed while you are viewing your friends’ and groups’ Facebook posts. If you sometimes have information overload while viewing your Newsfeed, this aid allows you view each post individually without surrounding distractions.
 
 ## Setup for Development
 
