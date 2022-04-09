@@ -37,14 +37,10 @@ const Popup = () => {
 			}
 		});
 
-		chrome.storage.local.get("focusModeToggle", item => {
-			setToggle(item.focusModeToggle);
-		});
 	}, []);
 
 	const toggleFocusMode = _toggle => {
 		setToggle(_toggle);
-		chrome.storage.local.set({ focusModeToggle: _toggle });
 		if (_toggle) {
 			enableExtension();
 		} else {
@@ -54,7 +50,7 @@ const Popup = () => {
 
 	return (
 		<div className="popup">
-			<p className="heading">TBI Focus Mode Extension</p>
+			<p className="heading">SMART-TBI Focus Mode Extension</p>
 			{disabled ? (
 				<p className="subtitle">Disabled</p>
 			) : (

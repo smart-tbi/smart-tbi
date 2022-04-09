@@ -211,8 +211,6 @@ const PostsBox = props => {
 		// }
 		for (let i = startIdx; i < allPosts.length; i++) {
 			// Do not add posts that have parsing issues
-			if (allPosts[i].textContent === undefined) continue; 
-			
 			if (
 				allPosts[i].getAttribute("aria-label") !== null ||
 				allPosts[i].getAttribute("aria-label")?.startsWith("Comment")
@@ -229,8 +227,7 @@ const PostsBox = props => {
 				allPosts[i].textContent.includes(" commented.") ||
 				allPosts[i].textContent.includes("People You May Know") ||
 				allPosts[i].textContent.includes("shared a memory.") ||
-				allPosts[i].textContent.includes("Reels and short videos") ||
-				allPosts[i].textContent.includes("Paid for by")
+				allPosts[i].textContent.includes("Reels and short videos")
 			) {
 				continue;
 			}
@@ -264,10 +261,15 @@ const PostsBox = props => {
 
 			// 2. Parse posts into a structured format
 			let parsed = parsePost(newPostDOM);
-			if (parsed.name === undefined) continue;
+			if (parsed.name === undefined && parsed.groupName === undefined) {
+				// if the parser could not get the author, it probably is not a valid post, so skip it
+				continue;
+			}
 			parsed.idx = postList.length - 1;
 			parsed.elementIdx = i; // original index
 			parsedPostList.push(parsed);
+			allPosts[i].setAttribute("data-tbi-post", JSON.stringify(parsed));
+			
 		}
 
 		// 3. Store 1 and 2 in state!

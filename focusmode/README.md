@@ -1,12 +1,10 @@
 # SMART-TBI Focus Mode Extension
 
-https://user-images.githubusercontent.com/13430641/161488862-7b4e00c2-663f-4a5e-889c-a3fe7716cb74.mp4
-
-The [SMART-TBI Focus Mode Extension](https://smart-tbi.github.io/studio/available-tools/focus-mode.html) is a feature designed to eliminate the distraction of a cluttered newsfeed while you are viewing your friends’ and groups’ Facebook posts. If you sometimes have information overload while viewing your Newsfeed, this aid allows you view each post individually without surrounding distractions.
+SMART-TBI Focus Mode Extension is a feature designed to eliminate the distraction of a cluttered newsfeed while you are viewing your friends’ and groups’ Facebook posts. If you sometimes have information overload while viewing your Newsfeed, this aid allows you view each post individually without surrounding distractions.
 
 ## Setup for Development
 
-1. Clone GitHub repository: `git clone https://github.com/smart-tbi/smart-tbi`
+1. Clone GitHub repository: `git clone https://github.com/smart-tbi/smart-tbi/focusmode`
 
 2. Navigate to Directory: `cd focusmode`
 
@@ -26,4 +24,10 @@ The [SMART-TBI Focus Mode Extension](https://smart-tbi.github.io/studio/availabl
 
 4. A folder named `extension` with the production build files will be created.
 
-5. Distribute this folder unpacked or compress to a .zip file and distribute.
+5. You can distribute this folder unpacked or compress to a .zip file and distribute.
+
+6. Go to Chrome browser the go to -> "Settings" -> then go to "Extensions" or you can directly visit this link in your Chrome browser: "chrome://extensions/"
+
+7. Click on "Load unpacked" and select the folder or .zip file from step 4 above.
+
+8. Your extension should be loaded in Chrome and you can pin it from the top-right corner of the Toolbar. 

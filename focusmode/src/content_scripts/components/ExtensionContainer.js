@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import PostsBox from "./PostsBox/PostsBox";
-import BottomFloatingButton from "./PostsBox/BottomFloatingButton";
 
 /**
  * This is a parent container that keeps common states for Focus Mode components,
@@ -14,6 +13,17 @@ const ExtensionContainer = props => {
 	const [disableExtension, setDisableExtension] = useState(false); // determines whether extension should be enabled
 
 	var currUrl = window.location.href;
+
+	// Handle messages from popup
+	chrome.runtime.onMessage.addListener(function(
+		request
+	) {
+		if (request.message === "DISABLE_FOCUSMODE_EXTENSION") {
+			setShowFocusMode(false);
+		} else if (request.message === "ENABLE_FOCUSMODE_EXTENSION") {
+			setShowFocusMode(true);
+		}
+	});
 
 	// If url changes, reload the website to force reload the extension.
 	setInterval(() => {
@@ -46,10 +56,6 @@ const ExtensionContainer = props => {
 			<React.Fragment>
 				<PostsBox
 					userId={props.userId}
-					showFocusMode={showFocusMode}
-					setShowFocusMode={setShowFocusMode}
-				/>
-				<BottomFloatingButton
 					showFocusMode={showFocusMode}
 					setShowFocusMode={setShowFocusMode}
 				/>
