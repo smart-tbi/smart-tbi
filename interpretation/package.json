@@ -1,7 +1,7 @@
 {
-  "name": "tbi-chrome",
+  "name": "SMART-TBI Interpretation Extension",
   "version": "1.0.0",
-  "description": "SMART-TBI Post Interpretation Aids",
+  "description": "SMART-TBI Interpretation Extension",
   "repository": {
     "type": "git",
     "url": "https://github.com/hajingit/tbi-chrome.git"

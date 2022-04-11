@@ -1,6 +1,6 @@
-# SMART-TBI Post Interpretation Aids
+# SMART-TBI Interpretation Extension
 
-The post interpretation aid is designed to help you better interpret social cues, including the meaning and sentiment of a Facebook post. If you have challenges “reading” other people, or understanding social cues, this aid can help by giving details about the emotions in a post, and showing images to help you understand the emotions in the message.
+SMART-TBI Interpretation Extension
 
 ## Setup for Development
 
@@ -17,13 +17,17 @@ The post interpretation aid is designed to help you better interpret social cues
 ## Create Production Build
 1. Clone the repository, navigate to it and install dependencies as steps 1-3 above.
 
-2. Replace `src/manifest.json` with `src/manifest.production.json`.
+2. Start a production build: `npm run build`
 
-3. Start a production build: `npm run build`
+3. A folder named `extension` with the production build files will be created.
 
-4. A folder named `extension` with the production build files will be created.
+4. You can distribute this folder unpacked or compress to a .zip file and distribute.
 
-5. Distribute this folder unpacked or compress to a .zip file and distribute.
+5. Go to Chrome browser the go to -> "Settings" -> then go to "Extensions" or you can directly visit this link in your Chrome browser: "chrome://extensions/"
+
+6. Click on "Load unpacked" and select the folder or .zip file from step 4 above.
+
+7. Your extension should be loaded in Chrome and you can pin it from the top-right corner of the Toolbar. 
 
 ## Facebook Post UI Structure
 1. Post elements have a `data-pagelet` attribute that starts with `FeedUnit` or `role="article"` attribute. In most situations, the posts are enclosed by a `div` with `role="feed"` and we can use the same to filter out the true posts.

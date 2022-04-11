@@ -56,7 +56,7 @@ const Popup = () => {
 
 	return (
 		<div className="popup">
-			<p className="heading">SMAT-TBI Interpretation Extension</p>
+			<p className="heading">SMART-TBI Interpretation Extension</p>
 			{disabled ? (
 				<>
 					<p className="subtitle">DISABLED</p>

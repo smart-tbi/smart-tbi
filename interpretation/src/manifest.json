@@ -1,7 +1,7 @@
 {
-  "name": "SMART-TBI Post Interpretation Aids",
-  "description": "SMART-TBI Post Interpretation Aids",
-  "version": "1.0.0",
+  "name": "SMART-TBI Interpretation Extension",
+  "description": "SMART-TBI Interpretation Extension",
+  "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
     {
