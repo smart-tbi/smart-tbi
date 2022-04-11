@@ -1,7 +1,7 @@
 {
-  "name": "SMART-TBI Post Writing Aids",
-  "description": "SMART-TBI Post Writing Aids",
-  "version": "1.0.0",
+  "name": "SMART-TBI Writing Extension",
+  "description": "SMART-TBI Writing Extension",
+  "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
     {

@@ -1,7 +1,7 @@
 /**
  * The API keys for the application.
  * 
- * TBI Post Writing Aids uses the Perspective API and TextGears API. 
+ * TBI Writing Extension uses the Perspective API and TextGears API. 
  * Sign up for a free account at each of these services to get your own API keys.
  * 
  * - Perspective API: https://www.perspectiveapi.com/

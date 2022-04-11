@@ -1,7 +1,7 @@
 {
-  "name": "tbi-chrome-writing",
+  "name": "SMART-TBI Writing Extension",
   "version": "1.0.0",
-  "description": "SMART-TBI Post Writing Aids",
+  "description": "SMART-TBI Writing Extension",
   "scripts": {
     "start:chrome": "npm run chrome-launch",
     "start:firefox": "npm run firefox-launch",

@@ -1,8 +1,6 @@
-# SMART-TBI Post Writing Aids
+# SMART-TBI Writing Extension
 
-https://user-images.githubusercontent.com/101165823/161505450-73a49a82-032c-454b-956d-bca48c65cd3e.mp4
-
-The post writing aid is designed to assist you in creating and writing clearer Facebook posts. If you struggle with spelling/grammar or deciding if your post is “appropriate”, this aid provides corrections and insight into the impression viewers may gather from your post.
+This extension is designed to assist you in creating and writing clearer Facebook posts. If you struggle with spelling/grammar or deciding if your post is “appropriate”, this aid provides corrections and insight into the impression viewers may gather from your post.
 
 ## Prerequisites
 
@@ -23,11 +21,15 @@ The post writing aid is designed to assist you in creating and writing clearer F
 ## Create Production Build
 1. Clone the repository, navigate to it and install dependencies as steps 1-3 above.
 
-2. Replace `src/manifest.json` with `src/manifest.production.json`.
+2. Start a production build: `npm run build`
 
-3. Start a production build: `npm run build`
+3. A folder named `extension` with the production build files will be created.
 
-4. A folder named `extension` with the production build files will be created.
+4. You can distribute this folder unpacked or compress to a .zip file and distribute.
 
-5. Distribute this folder unpacked or compress to a .zip file and distribute.
+5. Go to Chrome browser the go to -> "Settings" -> then go to "Extensions" or you can directly visit this link in your Chrome browser: "chrome://extensions/"
+
+6. Click on "Load unpacked" and select the folder or .zip file from step 4 above.
+
+7. Your extension should be loaded in Chrome and you can pin it from the top-right corner of the Toolbar. 
 
