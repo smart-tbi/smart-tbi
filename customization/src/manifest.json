@@ -1,7 +1,7 @@
 {
-  "name": "SMART-TBI Facebook Customization",
-  "description": "SMART-TBI Facebook Customization",
-  "version": "1.0.0",
+  "name": "SMART-TBI Clean Extension",
+  "description": "SMART-TBI Clean Extension",
+  "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
     {

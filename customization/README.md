@@ -1,14 +1,12 @@
-# SMART-TBI Facebook Customization
+# SMART-TBI Clean Extension
 
-https://user-images.githubusercontent.com/101165823/161505287-a2b18ff3-1ac9-4967-92fa-56a2abada219.mp4
-
-The Facebook customization feature allows you to declutter your Facebook home page. You may keep the features and tabs you wish to continue seeing, while eliminating the ones you do not use, want, or need. If Facebook’s website is confusing or difficult for you to navigate, this aid makes Facebook easier to view and use for your specific needs, while decreasing the site’s amount of sensory and information overload.
+SMART-TBI Clean Extension
 
 ## Setup for Development
 
-1. Clone GitHub repository: `git clone https://github.com/smart-tbi/smart-tbi`
+1. Clone GitHub repository: `git clone https://github.com/hajingit/tbi-clean`
 
-2. Navigate to Directory: `cd customization`
+2. Navigate to Directory: `cd tbi-clean`
 
 3. Install dependencies with [npm](https://www.npmjs.com/): `npm install`
 
@@ -23,5 +21,10 @@ The Facebook customization feature allows you to declutter your Facebook home pa
 
 3. A folder named `extension` with the production build files will be created.
 
-4. Distribute this folder unpacked or compress to a .zip file and distribute.
+4. You can distribute this folder unpacked or compress to a .zip file and distribute.
 
+5. Go to Chrome browser the go to -> "Settings" -> then go to "Extensions" or you can directly visit this link in your Chrome browser: "chrome://extensions/"
+
+6. Click on "Load unpacked" and select the folder or .zip file from step 4 above.
+
+7. Your extension should be loaded in Chrome and you can pin it from the top-right corner of the Toolbar. 

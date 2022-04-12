@@ -303,7 +303,7 @@ const Popup = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<div className="popup">
-				<p className="heading">SMAT-TBI Clean Extension</p>
+				<p className="heading">SMART-TBI Clean Extension</p>
 				<FormGroup style={{ display: "flex", justifyContent: "start", alignContent: "start", marginTop: -10 }}>
 					<div style={{ display: "flex", flexDirection: "row", marginLeft: 40, justifyContent: "space-between", alignItems: "center" }}>
 						<p style={{ color: "white", fontSize: "1.3em", fontWeight: "regular", marginRight: 40 }}>Left</p>

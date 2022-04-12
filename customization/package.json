@@ -1,7 +1,7 @@
 {
-  "name": "tbi-clean",
+  "name": "SMART-TBI Clean Extension",
   "version": "1.0.0",
-  "description": "SMART-TBI Facebook Customization",
+  "description": "SMART-TBI Clean Extension",
   "repository": {
     "type": "git",
     "url": "https://github.com/hajingit/tbi-clean.git"
