@@ -60,7 +60,7 @@ const Popup = () => {
 	// On click of the toggle button, send the toggle state to the content scripts
 	return (
 		<div className="popup">
-			<p className="heading">TBI Filter Extension</p>
+			<p className="heading">SMART-TBI Filter Extension</p>
 			{disabled ? (
 				<p className="subtitle">Disabled</p>
 			) : (
